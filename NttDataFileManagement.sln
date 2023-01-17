@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation Tier", "1 - Presentation Tier", "{39F2FDFF-B75A-45AE-8D96-654C223FA797}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Business Tier", "2 - Business Tier", "{C8748FA1-2C85-4097-9FF9-4C256B4BC762}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - DataAccess Tier", "3 - DataAccess Tier", "{E93C1443-C3AA-4626-AD75-E3DF352FBB6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NttData.FileManagement.Presentation.WinSite", "..\NttData.FileManagement.Presentation.WinSite\NttData.FileManagement.Presentation.WinSite.csproj", "{4D566219-03C6-4D2D-9D5F-D83D28421E89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D566219-03C6-4D2D-9D5F-D83D28421E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D566219-03C6-4D2D-9D5F-D83D28421E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D566219-03C6-4D2D-9D5F-D83D28421E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D566219-03C6-4D2D-9D5F-D83D28421E89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D566219-03C6-4D2D-9D5F-D83D28421E89} = {39F2FDFF-B75A-45AE-8D96-654C223FA797}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F67BA03A-3335-4731-9292-14147FB295D2}
+	EndGlobalSection
+EndGlobal
