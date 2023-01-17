@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace NttDataFileManagement.Presentation.WinSite.Properties
+namespace NttData.FileManagement.Presentation.WinSite.Properties
 {
 
 

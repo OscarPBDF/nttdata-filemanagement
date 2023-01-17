@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8F45A369-26A8-4D35-BCF5-F715226432C1}</ProjectGuid>
+    <ProjectGuid>{955A577B-F87B-4D85-9DBF-917A2761B401}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>NttDataFileManagement.Presentation.WinSite</RootNamespace>
-    <AssemblyName>NttDataFileManagement.Presentation.WinSite</AssemblyName>
+    <RootNamespace>NttData.FileManagement.Presentation.WinSite</RootNamespace>
+    <AssemblyName>NttData.FileManagement.Presentation.WinSite</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,14 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="frmStudent.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmStudent.Designer.cs">
+      <DependentUpon>frmStudent.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmStudent.resx">
+      <DependentUpon>frmStudent.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -75,6 +78,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NttDataFileManagement.Business.Logic\NttDataFileManagement.Business.Logic.csproj">
+      <Project>{e151b103-54c1-4c41-895b-0b34bf55d898}</Project>
+      <Name>NttDataFileManagement.Business.Logic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NttDataFileManagement.Common.Model\NttDataFileManagement.Common.Model.csproj">
+      <Project>{d48a4425-cacc-47a3-affb-79de3cdd5011}</Project>
+      <Name>NttDataFileManagement.Common.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
