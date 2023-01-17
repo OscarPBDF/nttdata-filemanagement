@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3365D0CA-41BE-48FD-8CC1-C00C272B4943}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>NttData.FileManagement.Presentation.WinSite</RootNamespace>
-    <AssemblyName>NttData.FileManagement.Presentation.WinSite</AssemblyName>
+    <ProjectGuid>{B66FA07A-34F2-4910-9A20-7A5E91EE662E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NttDataFileManagement.DataAccess.Repository</RootNamespace>
+    <AssemblyName>NttDataFileManagement.DataAccess.Repository</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,17 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\NttDataFileManagement.Business.Logic\NttDataFileManagement.Business.Logic.csproj">
-      <Project>{e151b103-54c1-4c41-895b-0b34bf55d898}</Project>
-      <Name>NttDataFileManagement.Business.Logic</Name>
-    </ProjectReference>
     <ProjectReference Include="..\NttDataFileManagement.Common.Model\NttDataFileManagement.Common.Model.csproj">
       <Project>{d48a4425-cacc-47a3-affb-79de3cdd5011}</Project>
       <Name>NttDataFileManagement.Common.Model</Name>
