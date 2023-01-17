@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace NttData.FileManagement.Presentation.WinSite
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
