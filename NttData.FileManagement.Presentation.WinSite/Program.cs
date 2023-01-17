@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace NttDataFileManagement.Presentation.WinSite
+namespace NttData.FileManagement.Presentation.WinSite
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace NttDataFileManagement.Presentation.WinSite
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new frmStudent());
         }
     }
 }
