@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NttDataFileManagement.Common.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,6 @@ namespace NttDataFileManagement.DataAccess.Repository.Contracts
 {
     public interface IStudentRepository
     {
-        bool Add(IStudentRepository student);
+        bool Add(Student student);
     }
 }
