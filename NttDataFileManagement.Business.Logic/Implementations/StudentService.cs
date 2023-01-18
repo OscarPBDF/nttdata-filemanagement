@@ -15,6 +15,7 @@ namespace NttDataFileManagement.Business.Logic.Implementations
 
         public bool Add(Student student)
         {
+
             student.Age = CalculateAge(student.Birthday);
             IStudentRepository studentRepository = new StudentRepository();
             studentRepository.Add(student);
